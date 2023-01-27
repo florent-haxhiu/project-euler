@@ -3,7 +3,7 @@
 
 int main() {
   long findPrime = 600851475143;
-  long lastFactor, factor;
+  int lastFactor, factor;
 
   if (findPrime % 2 == 0) {
     findPrime = findPrime / 2;
@@ -26,5 +26,5 @@ int main() {
     factor = factor + 2;
   }
 
-  printf("%ld\n", lastFactor);
+  printf("%d\n", lastFactor);
 }
